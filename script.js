@@ -68,6 +68,7 @@ const eliminaUnoDelCarrito = (id) => {
   cantidad--;
   subtotal -= producto.precio;
   actualizarCarrito();
+  actualizarCarritoLocal();
 };
 
 
